@@ -1,5 +1,5 @@
 require "sinatra"
-require "sinatra/reloader"
+
 get "/" do # directs to the home page (root directory). 'get' goes to a page
 	erb :first_page # directs from 'first_page' erb(embedded ruby) file
 end 
