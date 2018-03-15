@@ -1,0 +1,13 @@
+<%=f_name%>, You're <%=age%>, Your favorite food and drink is <%=food%> and <%=drink%>. Your favorite numbers are <%=number_1%>, <%=number_2%>, <%=number_3%>.
+<h1>What is your favorite color?</h1>
+<form method="post" action="colors">
+	<input type="text" name="colors">
+	<input type="hidden" name="number_1" value="<%=number_1%>">
+	<input type="hidden" name="number_2" value="<%=number_2%>">
+	<input type="hidden" name="number_3" value="<%=number_3%>">
+	<input type="hidden" name="food" value="<%=food%>"><br>
+	<input type="hidden" name="drink" value="<%=drink%>"><br>
+	<input type="hidden" name="f_name" value="<%=f_name%>">
+	<input type="hidden" name="age" value="<%=age%>">
+	<input type="submit" name="submit">
+</form>
